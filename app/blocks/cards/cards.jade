@@ -1,0 +1,14 @@
+mixin cards()
+    +b('section').cards
+        +e.container
+            +e.chapter
+                img(src='./images/click.svg')
+                +e.chapter-text кликните на одну из карточек
+            +e.content
+                +e.card(id = 'card')
+                    +e.face.card__face-front
+                        img(src='./images/cart_1.png')
+                    +e.face.card__face-back
+                        img(src='./images/cart_1-back.png')
+
+
