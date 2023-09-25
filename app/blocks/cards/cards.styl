@@ -1,0 +1,53 @@
+.cards
+    background-color $c-blue
+    padding-top 3%
+    height 100vh
+
+    &__chapter
+        text-align center
+        color $c-white
+        font-size w(64)
+
+    &__chapter-text
+        font-weight 700
+        font-family $ff-GTEestiProDisplayRegular
+
+    &__content
+        display flex
+        justify-content center
+        margin-top w(30)
+
+    &__card
+        margin-right 63px
+        transition 0.2s ease-in-out
+        cursor pointer
+        transform-style preserve-3d
+        &:hover
+            margin-top w(-25)
+        // &:active
+        //     transform rotateY(0.5turn)
+        &:last-child
+            margin-right 0
+
+    &__face
+        height w(1308)
+        -webkit-backface-visibility hidden
+        backface-visibility: hidden
+        transition 1s ease-in-out
+        -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+        img
+            width 100%
+            height 100%
+            -o-object-fit cover
+            object-fit cover
+
+.flipped
+    transform rotateY(180deg)
+
+.card__face-back
+    position absolute
+    left 0
+    top 0
+    transform rotateY(0.5turn)
+
+        

@@ -1,6 +1,8 @@
 extends /blocks/layout-default/layout-default
+include /blocks/cards/cards
 
 block head
 	- var pageTitle = 'Project Template';
 
 block content
+	+cards()
