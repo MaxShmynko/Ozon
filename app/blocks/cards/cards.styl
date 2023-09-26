@@ -24,8 +24,6 @@
         transform-style preserve-3d
         &:hover
             margin-top w(-25)
-        // &:active
-        //     transform rotateY(0.5turn)
         &:last-child
             margin-right 0
 
@@ -40,6 +38,26 @@
             height 100%
             -o-object-fit cover
             object-fit cover
+
+    &__face-title
+        position absolute
+        color $c-white
+        text-align center
+        font-family $ff-GTEestiProDisplayRegular
+        font-size w(53)
+        font-weight 700
+        top 40%
+        padding 0 w(100) 0 w(130)
+
+    &__face-text
+        color $c-white
+        font-family $ff-GTEestiProDisplayRegular
+        text-align center
+        font-size w(38)
+        font-weight 400
+
+
+
 
 .flipped
     transform rotateY(180deg)
