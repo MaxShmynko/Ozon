@@ -73,6 +73,7 @@ $(() => {
 		$('.cards__restart').click(function () {
 			updateContent();
 		});
+
 	
 		$(window).resize(function () {
 			updateContent();
