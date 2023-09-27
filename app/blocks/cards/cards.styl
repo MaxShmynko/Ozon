@@ -1,14 +1,21 @@
 .cards
     background-color $c-blue
-    padding-top w(395)
+    padding-top w(85)
+    overflow hidden
     height 100vh
     +below(5344px)
-        padding-top w(95)
+        padding-top w(395)
+    +below(3395px)
+        padding-top 2%
+    +below(800px)
+        padding-top wm(131)
 
     &__chapter
         text-align center
         color $c-white
         font-size w(64)
+        +below(800px)
+            font-size wm(48)
 
     &__chapter-text
         font-weight 700
@@ -18,6 +25,8 @@
         display flex
         justify-content center
         margin-top w(30)
+        +below(800px)
+            margin-top wm(84)
 
     &__card
         margin-right w(60)
@@ -30,7 +39,7 @@
             margin-right 0
 
     &__face
-        width w(859)
+        width w(750)
         -webkit-backface-visibility hidden
         backface-visibility hidden
         transition 1s ease-in-out
@@ -40,9 +49,9 @@
             height 100%
             -o-object-fit cover
             object-fit cover
-
-        +below(5344px)
-            width w(750) 
+        +below(800px)
+            width wm(650)
+            height wm(988)
 
     &__face-title
         position absolute
@@ -56,6 +65,11 @@
         +below(5344px)
             padding 0 w(440) 0 w(480)
             font-size w(50)
+        +below(800px)
+            padding 0
+            padding 0 wm(90) 0 wm(120)
+            font-size wm(50)
+            top 20%
 
     &__face-text
         color $c-white
@@ -66,6 +80,10 @@
         width w(1509)
         a
             color $c-white
+        +below(800px)
+            width wm(680)
+            font-size wm(38)
+            text-align justify
 
 
     &__restart
@@ -73,19 +91,27 @@
         color $c-white
         font-size w(64)
         margin-top w(300)
+        cursor pointer
+        +below(800px)
+            margin-top wm(540)
+            font-size wm(48)
 
 .bold-text
     font-weight 700
 
 .back-img
-    width w(859)
-    +below(5344px)
-        width w(750)
+    width w(750)
+    +below(800px)
+        width wm(649)
 
 .flipped
     transform rotateY(180deg)
     width w(1509)
-    margin-right 0
+    margin-right w(170)
+    +below(800px)
+        width wm(649)
+    // +below(5344px)
+    //     margin w(50) 
 
 .card__face-back
     position absolute
@@ -96,5 +122,5 @@
     display flex
     flex-direction column
     align-items center
-
-        
+    +below(800px)
+        width wm(649)
