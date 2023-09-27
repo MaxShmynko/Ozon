@@ -3,19 +3,22 @@
     padding-top w(85)
     overflow hidden
     height 100vh
-    +below(5344px)
-        padding-top w(395)
     +below(3395px)
         padding-top 2%
     +below(800px)
-        padding-top wm(131)
+        padding-top wm(30)
+        overflow visible
 
     &__chapter
         text-align center
         color $c-white
         font-size w(64)
+        img
+            width w(90)
+            +below(800px)
+                width wm(60)
         +below(800px)
-            font-size wm(48)
+            font-size wm(40)
 
     &__chapter-text
         font-weight 700
@@ -26,7 +29,7 @@
         justify-content center
         margin-top w(30)
         +below(800px)
-            margin-top wm(84)
+            margin-top wm(5)
 
     &__card
         margin-right w(60)
@@ -50,26 +53,27 @@
             -o-object-fit cover
             object-fit cover
         +below(800px)
-            width wm(650)
-            height wm(988)
+            width wm(470)
 
     &__face-title
         position absolute
         color $c-white
         text-align center
         font-family $ff-GTEestiProDisplayRegular
-        font-size w(53)
+        font-size w(50)
         font-weight 700
-        top 40%
+        top 30%
         padding 0 w(400) 0 w(460)
+        line-height w(62)
         +below(5344px)
-            padding 0 w(440) 0 w(480)
+            padding 0 w(480) 0 w(480)
             font-size w(50)
         +below(800px)
             padding 0
-            padding 0 wm(90) 0 wm(120)
-            font-size wm(50)
-            top 20%
+            padding 0 wm(65) 0 wm(90)
+            font-size wm(35)
+            line-height wm(50)
+            top 23%
 
     &__face-text
         color $c-white
@@ -78,11 +82,13 @@
         font-size w(38)
         font-weight 400
         width w(1509)
+        line-height w(50)
         a
             color $c-white
         +below(800px)
-            width wm(680)
-            font-size wm(38)
+            width wm(700)
+            line-height wm(35)
+            font-size wm(25)
             text-align justify
 
 
@@ -92,9 +98,13 @@
         font-size w(64)
         margin-top w(300)
         cursor pointer
+        img
+            width w(90)
+            +below(800px)
+                width wm(80)
         +below(800px)
-            margin-top wm(540)
-            font-size wm(48)
+            margin-top wm(270)
+            font-size wm(45)
 
 .bold-text
     font-weight 700
@@ -102,16 +112,14 @@
 .back-img
     width w(750)
     +below(800px)
-        width wm(649)
+        width wm(470)
 
 .flipped
     transform rotateY(180deg)
     width w(1509)
     margin-right w(170)
     +below(800px)
-        width wm(649)
-    // +below(5344px)
-    //     margin w(50) 
+        width wm(470)
 
 .card__face-back
     position absolute
@@ -123,4 +131,4 @@
     flex-direction column
     align-items center
     +below(800px)
-        width wm(649)
+        width wm(470)
