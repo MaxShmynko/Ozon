@@ -1,7 +1,9 @@
 .cards
     background-color $c-blue
-    padding-top 3%
+    padding-top w(395)
     height 100vh
+    +below(5344px)
+        padding-top w(95)
 
     &__chapter
         text-align center
@@ -18,7 +20,7 @@
         margin-top w(30)
 
     &__card
-        margin-right 63px
+        margin-right w(60)
         transition 0.2s ease-in-out
         cursor pointer
         transform-style preserve-3d
@@ -28,9 +30,9 @@
             margin-right 0
 
     &__face
-        height w(1308)
+        width w(859)
         -webkit-backface-visibility hidden
-        backface-visibility: hidden
+        backface-visibility hidden
         transition 1s ease-in-out
         -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
         img
@@ -38,6 +40,9 @@
             height 100%
             -o-object-fit cover
             object-fit cover
+
+        +below(5344px)
+            width w(750) 
 
     &__face-title
         position absolute
@@ -47,7 +52,10 @@
         font-size w(53)
         font-weight 700
         top 40%
-        padding 0 w(100) 0 w(130)
+        padding 0 w(400) 0 w(460)
+        +below(5344px)
+            padding 0 w(440) 0 w(480)
+            font-size w(50)
 
     &__face-text
         color $c-white
@@ -55,17 +63,38 @@
         text-align center
         font-size w(38)
         font-weight 400
+        width w(1509)
+        a
+            color $c-white
 
 
+    &__restart
+        text-align center
+        color $c-white
+        font-size w(64)
+        margin-top w(300)
 
+.bold-text
+    font-weight 700
+
+.back-img
+    width w(859)
+    +below(5344px)
+        width w(750)
 
 .flipped
     transform rotateY(180deg)
+    width w(1509)
+    margin-right 0
 
 .card__face-back
     position absolute
     left 0
     top 0
     transform rotateY(0.5turn)
+    width w(1509)
+    display flex
+    flex-direction column
+    align-items center
 
         
