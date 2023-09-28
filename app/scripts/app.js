@@ -63,7 +63,8 @@ $(() => {
 		});
 	
 		$('.cards__card').click(function () {
-			$(this).toggleClass('flipped');
+			$('.cards__card').removeClass('flipped');
+			$(this).addClass('flipped');
 		});
 	}
 	
