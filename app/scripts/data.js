@@ -9,7 +9,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " у вас будет кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать в ",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -23,7 +23,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " у вас будет кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать в ",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -37,7 +37,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: ", то сможете получить кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать в ",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -51,7 +51,7 @@ const DATA = {
             linkText1: " Ozon Банка,",
             linkURL1: "https://finance.ozon.ru/",
             text3: " у вас будет кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать в ",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -65,7 +65,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " у вас будет кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -79,7 +79,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " с кешбэком до 25% в рублях. А до конца октября можете поучаствовать в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и получить шанс вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -93,7 +93,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " с гарантированным кешбэком до 25% в рублях. Успейте поучаствовать в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " до конца октября и получить шанс вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -107,7 +107,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " любая покупка станет выгодной – с кешбэком до 25% в рублях. Участвуйте в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " до конца октября и получите шанс вернуть 100% кешбэка за покупки вне Ozon."
 
@@ -121,7 +121,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " каждая покупка будет приносить выгоду. У вас будет кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -135,7 +135,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " с кешбэком до 25% в рублях. Не упустите шанс до конца октября поучаствовать в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -149,7 +149,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " с кешбэком до 25% в рублях. А до конца октября участвуйте в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и получите шанс вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -163,7 +163,7 @@ const DATA = {
             linkText1: " Ozon-Банка,",
             linkURL1: "https://finance.ozon.ru/",
             text3: " у вас будет кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -177,7 +177,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " вы получите кешбэк до 25% в рублях, а до конца октября – шанс поучаствовать в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -191,7 +191,7 @@ const DATA = {
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
             text3: " с кешбэком до 25% в рублях. А до конца октября участвуйте в",
-            linkText2: "Акции",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
             text4: " и получите шанс вернуть 100% кешбэка за любые покупки вне Ozon."
 
@@ -201,13 +201,13 @@ const DATA = {
             imageSrc2: "./images/cart_15-back.png",
             text1: "Cтарые связи дадут о себе знать, вы получите интересное предложение",
             boldText: "Предсказание:",
-            text2: " В скором времени у вас появится шанс заработать неплохую сумму. Но чтобы не откладывать радости на потом – оформите бесплатную дебетовую карту,",
+            text2: " в скором времени у вас появится шанс заработать неплохую сумму. Но чтобы не откладывать радости на потом – оформите бесплатную дебетовую карту",
             linkText1: " Ozon-Банка",
             linkURL1: "https://finance.ozon.ru/",
-            text3: " чтобы получать кешбэк до 25% в рублях и до конца октября – шанс поучаствовать в Акции",
-            linkText2: "Акции",
+            text3: " с кешбэком до 25% в рублях. А до конца октября участвуйте в",
+            linkText2: " Акции",
             linkURL2: "https://finance.ozon.ru/promo/konkurs100/landing",
-            text4: " и вернуть 100% кешбэка за любые покупки вне Ozon."
+            text4: " и получите шанс вернуть 100% кешбэка за любые покупки вне Ozon."
         },
     ],
     
