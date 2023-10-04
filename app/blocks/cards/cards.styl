@@ -21,7 +21,7 @@
             font-size wm(40)
 
     &__chapter-text
-        font-weight 700
+        font-weight 400
         font-family $ff-GTEestiProDisplayRegular
 
     &__content
@@ -40,6 +40,15 @@
             margin-top w(-25)
         &:last-child
             margin-right 0
+
+            .cards__face-text
+                right 54%
+
+        &:first-child
+            .cards__face-text
+                left 54%
+                +below(800px)
+                    left -25%
 
     &__face
         width w(750)
@@ -65,6 +74,7 @@
         top 30%
         padding 0 w(400) 0 w(460)
         line-height w(62)
+        text-shadow: 3px 3px 2px rgba(87, 87, 87, 1);
         +below(5344px)
             padding 0 w(80) 0 w(80)
             font-size w(50)
@@ -76,6 +86,9 @@
             top 23%
 
     &__face-text
+        position fixed
+        top 101%
+        margin auto
         color $c-white
         font-family $ff-GTEestiProDisplayRegular
         text-align center
@@ -88,9 +101,8 @@
             color $c-white
         +below(800px)
             width wm(700)
-            line-height wm(35)
+            line-height wm(40)
             font-size wm(25)
-            text-align justify
 
 
     &__restart
@@ -104,8 +116,8 @@
             +below(800px)
                 width wm(80)
         +below(800px)
-            margin-top wm(270)
-            font-size wm(45)
+            margin-top wm(350)
+            font-size wm(35)
 
 .bold-text
     font-weight 700
