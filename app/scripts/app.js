@@ -66,6 +66,10 @@ $(() => {
 			$('.cards__card').removeClass('flipped');
 			$(this).addClass('flipped');
 		});
+		$('.cards__card').click(function () {
+			$('.cards__face-text').removeClass('active');
+			$(this).addClass('active');
+		});
 	}
 	
 	$(document).ready(function () {

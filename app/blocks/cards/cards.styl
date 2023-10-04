@@ -38,6 +38,8 @@
         transform-style preserve-3d
         &:hover
             margin-top w(-25)
+            .cards__face-text
+                opacity 1
         &:last-child
             margin-right 0
 
@@ -97,6 +99,9 @@
         width w(1509)
         line-height w(50)
         cursor auto
+        opacity 0
+        transition opacity 1.5s ease-in-out
+        transition-delay 0.5s
         a
             color $c-white
         +below(800px)
@@ -143,3 +148,6 @@
     align-items center
     +below(800px)
         width wm(470)
+
+.active
+    opacity 1
