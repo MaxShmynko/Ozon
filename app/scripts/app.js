@@ -59,17 +59,21 @@ $(() => {
 	
 	function assignEventHandlers() {
 		$('.cards__face-text').click(function (event) {
-			event.stopPropagation();
-		});
-	
-		$('.cards__card').click(function () {
-			$('.cards__card').removeClass('flipped');
-			$(this).addClass('flipped');
-		});
-		$('.cards__card').click(function () {
-			$('.cards__face-text').removeClass('active');
-			$(this).addClass('active');
-		});
+            event.stopPropagation();
+        });
+    
+        $('.cards__card').click(function () {
+            $('.cards__card').removeClass('flipped');
+            $(this).addClass('flipped');
+        });
+        $('.cards__card').click(function () {
+            $('.cards__face-text').removeClass('active');
+            $(this).find('.cards__face-text').addClass('active');
+        });
+        
+        $('.cards__card').mouseleave(function () {
+            $(this).find('.cards__face-text').addClass('active');
+        });
 	}
 	
 	$(document).ready(function () {
