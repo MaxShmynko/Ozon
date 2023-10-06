@@ -2,7 +2,7 @@
     background-color $c-blue
     padding-top w(85)
     overflow hidden
-    // height 100vh
+    height 100vh
     +below(3395px)
         padding-top w(10)
     +below(800px)
@@ -110,6 +110,8 @@
         transition-delay 0.5s
         a
             color $c-white
+        +below(3395px)
+            top 107%
         +below(800px)
             top 103%
             width wm(700)
@@ -121,12 +123,14 @@
         text-align center
         color $c-white
         font-size w(64)
-        margin-top 9%
+        margin-top 10%
         cursor pointer
         img
             width w(90)
             +below(800px)
                 width wm(80)
+        +below(3395px)
+            margin-top 8%
         +below(800px)
             margin-top wm(370)
             font-size wm(35)
